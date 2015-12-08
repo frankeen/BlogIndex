@@ -1,0 +1,118 @@
+/*这里是css页面*/
+body{
+	background-color: #EEE8AA;
+}
+div{
+	height: 150px; /*原先此处写200px，现在改为150px*/
+	width: 90%;
+	background-color: #9ACD32;  /**/
+
+	margin-left: 20px;
+}
+#header{
+	height: 100px;
+	/*background-color:#4169E1;*/
+	background-color: #4B0082;
+	width: 95%;
+	display:inline-block;
+	margin-left: 20px;
+}
+
+#headicon{
+	float:left;
+	height: 50px;
+	width: 50px;
+	margin-top: 10px;
+}
+
+div img{
+	height: 50px;
+	width: 50px;
+}
+#back{
+	margin-top: 30px;
+	height:30px;
+	width: 50px;
+	position: relative;
+	text-decoration: none;
+	border-radius: 5px;
+}
+#none{
+	/*没什么用处，用于分割div布局*/
+	height: 5px;
+	width: 90%;
+	background-color: white;
+}
+.one{
+	/*条目数只有1行的*/
+	height: 140px;
+	width: 90%;
+}
+.two{
+	/*条目数有2行的*/
+	height: 220px;
+	width: 90%;
+
+}
+.three{
+	/*条目数有3行的*/
+	height:280px;
+	width: 90%;
+}
+.four{
+	/*条目数有4行的*/
+	height:340px;  /* 380px已经可以显示完整的4行*/
+	width: 90%;
+}
+.five{
+	/*条目数有5行的*/
+	height:420px;  /* 380px已经可以显示完整的4行*/
+	width: 90%;
+}
+div div {
+	border-radius: 8px;
+
+}
+
+.square{
+	/*每行4个*/
+	width: 20%;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 20px;
+	border: 2px solid black;
+	background-color:#DEB887;
+	display: inline-block;
+	text-decoration: none;
+}
+.square2{
+	/*每行3个*/
+	width: 30%;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 20px;
+	border: 2px solid black;
+	background-color:#DEB887;
+	display: inline-block;
+	text-decoration: none;
+} 
+
+
+p{
+	margin-top: 10px;
+	font-size: 1.2em;
+	margin-left: 20px;
+}
+h2{
+	height: 10px;
+	text-align: center;
+	color:green;
+}
+h3{
+	height: 10px;
+	color: #1E90FF	;
+	text-align: center;
+	border-top: 0px;
+
+}
+
