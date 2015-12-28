@@ -1,0 +1,10 @@
+cd / 
+cd usr/local/etc
+mkdir openssl
+cd openssl
+mkdir certs
+cd ..
+sudo chown your-username openssl 
+cd openssl
+sudo chown your-username certs
+npm install -g stf
