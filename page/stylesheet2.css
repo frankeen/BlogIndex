@@ -56,12 +56,12 @@ div img{
 }
 .three{
 	/*条目数有3行的*/
-	height:280px;
+	height:300px;
 	width: 90%;
 }
 .four{
 	/*条目数有4行的*/
-	height:340px;  /* 380px已经可以显示完整的4行*/
+	height:400px;  /* 380px已经可以显示完整的4行*/
 	width: 90%;
 }
 .five{
